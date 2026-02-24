@@ -21,7 +21,7 @@ public class DeckController : MonoBehaviour
     void Start()
     {
         // Pon tu nombre completo aquí (y también en el texto del Canvas si quieres)
-        if (projectOwnerText) projectOwnerText.text = "TU NOMBRE COMPLETO AQUÍ";
+        if (projectOwnerText) projectOwnerText.text = "Jerónimo Montoya Giraldo";
 
         // Dropdown fijo: Usuario 1,2,3 (sin complicarte con lista desde API)
         if (userDropdown)
